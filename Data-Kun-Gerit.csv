@@ -1,0 +1,85 @@
+Nama_Spot,Bulan,Event_Khusus,Harga_Tiket,Jam_Operasional,Aksesibilitas,Luas_Lahan,Pengunjung
+Pemandian,1,1,5000,10,Mudah,7300,2450
+Waterboom,1,1,15000,10,Sedang,5000,3120
+Kuda,1,1,25000,8,Sedang,4500,680
+Villa,1,1,300000,24,Sukar,6500,110
+Pendopo,1,1,50000,12,Mudah,1500,250
+Pemancingan,1,1,15000,10,Sukar,1000,580
+Pabrik BBS,1,1,5000,8,Sukar,1000,45
+Pemandian,2,0,5000,10,Mudah,7300,2300
+Waterboom,2,0,15000,10,Sedang,5000,3050
+Kuda,2,0,25000,8,Sedang,4500,650
+Villa,2,0,300000,24,Sukar,6500,105
+Pendopo,2,0,50000,12,Mudah,1500,230
+Pemancingan,2,0,15000,10,Sukar,1000,550
+Pabrik BBS,2,0,5000,8,Sukar,1000,40
+Pemandian,3,0,5000,10,Mudah,7300,2600
+Waterboom,3,0,15000,10,Sedang,5000,3200
+Kuda,3,0,25000,8,Sedang,4500,710
+Villa,3,0,300000,24,Sukar,6500,120
+Pendopo,3,0,50000,12,Mudah,1500,260
+Pemancingan,3,0,15000,10,Sukar,1000,600
+Pabrik BBS,3,0,5000,8,Sukar,1000,50
+Pemandian,4,1,5000,10,Mudah,7300,8500
+Waterboom,4,1,15000,10,Sedang,5000,9200
+Kuda,4,1,25000,8,Sedang,4500,1500
+Villa,4,1,300000,24,Sukar,6500,400
+Pendopo,4,1,50000,12,Mudah,1500,800
+Pemancingan,4,1,15000,10,Sukar,1000,1200
+Pabrik BBS,4,1,5000,8,Sukar,1000,150
+Pemandian,5,0,5000,10,Mudah,7300,2350
+Waterboom,5,0,15000,10,Sedang,5000,3100
+Kuda,5,0,25000,8,Sedang,4500,670
+Villa,5,0,300000,24,Sukar,6500,115
+Pendopo,5,0,50000,12,Mudah,1500,240
+Pemancingan,5,0,15000,10,Sukar,1000,570
+Pabrik BBS,5,0,5000,8,Sukar,1000,42
+Pemandian,6,1,5000,10,Mudah,7300,7500
+Waterboom,6,1,15000,10,Sedang,5000,8800
+Kuda,6,1,25000,8,Sedang,4500,1450
+Villa,6,1,300000,24,Sukar,6500,380
+Pendopo,6,1,50000,12,Mudah,1500,750
+Pemancingan,6,1,15000,10,Sukar,1000,1100
+Pabrik BBS,6,1,5000,8,Sukar,1000,140
+Pemandian,7,0,5000,10,Mudah,7300,2400
+Waterboom,7,0,15000,10,Sedang,5000,3150
+Kuda,7,0,25000,8,Sedang,4500,690
+Villa,7,0,300000,24,Sukar,6500,118
+Pendopo,7,0,50000,12,Mudah,1500,245
+Pemancingan,7,0,15000,10,Sukar,1000,590
+Pabrik BBS,7,0,5000,8,Sukar,1000,48
+Pemandian,8,1,5000,10,Mudah,7300,2500
+Waterboom,8,1,15000,10,Sedang,5000,3250
+Kuda,8,1,25000,8,Sedang,4500,700
+Villa,8,1,300000,24,Sukar,6500,112
+Pendopo,8,1,50000,12,Mudah,1500,255
+Pemancingan,8,1,15000,10,Sukar,1000,585
+Pabrik BBS,8,1,5000,8,Sukar,1000,46
+Pemandian,9,0,5000,10,Mudah,7300,2200
+Waterboom,9,0,15000,10,Sedang,5000,3000
+Kuda,9,0,25000,8,Sedang,4500,640
+Villa,9,0,300000,24,Sukar,6500,100
+Pendopo,9,0,50000,12,Mudah,1500,220
+Pemancingan,9,0,15000,10,Sukar,1000,540
+Pabrik BBS,9,0,5000,8,Sukar,1000,38
+Pemandian,10,0,5000,10,Mudah,7300,2250
+Waterboom,10,0,15000,10,Sedang,5000,3080
+Kuda,10,0,25000,8,Sedang,4500,660
+Villa,10,0,300000,24,Sukar,6500,108
+Pendopo,10,0,50000,12,Mudah,1500,235
+Pemancingan,10,0,15000,10,Sukar,1000,560
+Pabrik BBS,10,0,5000,8,Sukar,1000,41
+Pemandian,11,0,5000,10,Mudah,7300,2550
+Waterboom,11,0,15000,10,Sedang,5000,3300
+Kuda,11,0,25000,8,Sedang,4500,720
+Villa,11,0,300000,24,Sukar,6500,125
+Pendopo,11,0,50000,12,Mudah,1500,265
+Pemancingan,11,0,15000,10,Sukar,1000,610
+Pabrik BBS,11,0,5000,8,Sukar,1000,52
+Pemandian,12,1,5000,10,Mudah,7300,8900
+Waterboom,12,1,15000,10,Sedang,5000,9500
+Kuda,12,1,25000,8,Sedang,4500,1600
+Villa,12,1,300000,24,Sukar,6500,500
+Pendopo,12,1,50000,12,Mudah,1500,850
+Pemancingan,12,1,15000,10,Sukar,1000,1300
+Pabrik BBS,12,1,5000,8,Sukar,1000,160
