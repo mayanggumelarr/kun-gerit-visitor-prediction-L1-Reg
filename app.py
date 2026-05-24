@@ -271,17 +271,24 @@ hr {
 .stTabs [data-baseweb="tab-list"] {
     background: var(--mint);
     border-radius: 12px;
-    padding: 4px;
-    gap: 4px;
+    padding: 5px 6px;
+    gap: 6px;
+    margin-bottom: 24px;
 }
 .stTabs [data-baseweb="tab"] {
     border-radius: 8px !important;
     font-weight: 600 !important;
     color: var(--dark) !important;
+    padding: 10px 22px !important;
+    font-size: 0.88rem !important;
+    letter-spacing: 0.2px;
 }
 .stTabs [aria-selected="true"] {
     background: var(--green) !important;
     color: white !important;
+}
+.stTabs [data-baseweb="tab-panel"] {
+    padding-top: 8px !important;
 }
 
 /* ── Download buttons ── */
@@ -564,8 +571,8 @@ if menu == "Prediksi Pengunjung":
     st.markdown("""
     <div class="hero-banner">
         <span class="hero-badge">AI Prediction System</span>
-        <h1>Sistem Prediksi Pengunjung</h1>
-        <p>Sendang Wisata Kun Gerit — Prediksi jumlah pengunjung per spot menggunakan Machine Learning Lasso Regression</p>
+        <h1>Sistem Prediksi Pengunjung Per-Spot</h1>
+        <p>Sendang Wisata Kun Gerit — Kukungerit, Jatibatur, Sragen</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -573,7 +580,7 @@ if menu == "Prediksi Pengunjung":
 
     with col_form:
         st.markdown('<div class="section-title">Form Input Prediksi</div>', unsafe_allow_html=True)
-        st.markdown('<div class="card card-accent">', unsafe_allow_html=True)
+        # st.markdown('<div class="card card-accent">', unsafe_allow_html=True)
 
         # ── Spot ──
         nama_spot = st.selectbox(
@@ -863,8 +870,8 @@ elif menu == "Riwayat & Dashboard":
                      'harga_tiket', 'jam_operasional', 'aksesibilitas',
                      'luas_lahan', 'prediksi', 'catatan']
         df_display = df_filtered[cols_show].rename(columns={
-            'id': 'No', 'tanggal': 'Tanggal', 'nama_spot': 'Spot',
-            'nama_bulan': 'Bulan', 'event_khusus': 'Event (0/1)',
+            'id': 'ID_Data', 'tanggal': 'Tanggal', 'nama_spot': 'Spot',
+            'nama_bulan': 'Bulan', 'event_khusus': 'No-Event(0)/Event(1)',
             'harga_tiket': 'Harga Tiket (Rp)', 'jam_operasional': 'Jam Op.',
             'aksesibilitas': 'Aksesibilitas', 'luas_lahan': 'Luas (m²)',
             'prediksi': 'Prediksi', 'catatan': 'Catatan'
