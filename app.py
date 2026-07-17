@@ -631,7 +631,7 @@ if menu == "Prediksi Pengunjung":
             "Aksesibilitas Jalan",
             options=["Mudah", "Sedang", "Sukar"],
             value="Mudah",
-            help="Mudah = jalan mulus; Sedang = sedikit terjal; Sukar = jalan berat"
+            help="Mudah = Dekat pintu masuk; Sedang = Sedikit jauh; Sukar = Jauh dari pintu masuk"
         )
 
         luas_lahan = st.number_input(
