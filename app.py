@@ -369,7 +369,7 @@ FITUR = ['Nama_Spot_enc', 'Bulan', 'Event_Khusus',
 # ─────────────────────────────────────────────
 #  DATABASE SQLite
 # ─────────────────────────────────────────────
-DB_PATH = os.path.join(BASE_DIR, "kun_gerit_predictions.db")
+DB_PATH = os.path.join(BASE_DIR, "data/kun_gerit_predictions.db")
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
