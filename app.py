@@ -722,17 +722,17 @@ if menu == "Prediksi Pengunjung":
 
             st.markdown('<br>', unsafe_allow_html=True)
 
-            # Feature engineering info
-            st.markdown('<div class="card card-green">', unsafe_allow_html=True)
-            st.markdown("**Detail Feature Engineering**")
-            col_fe1, col_fe2 = st.columns(2)
-            with col_fe1:
-                st.metric("Harga_Tiket_Log", f"{np.log1p(lp['harga_tiket']):.4f}")
-                st.metric("Aksesibilitas_enc", ORDINAL_MAP[lp['aksesibilitas']])
-            with col_fe2:
-                st.metric("Tiket × Jam", f"{lp['tiket_x_jam']:,}")
-                st.metric("Nama_Spot_enc", le_spot.transform([lp['nama_spot']])[0])
-            st.markdown('</div>', unsafe_allow_html=True)
+            # # Feature engineering info
+            # st.markdown('<div class="card card-green">', unsafe_allow_html=True)
+            # st.markdown("**Detail Feature Engineering**")
+            # col_fe1, col_fe2 = st.columns(2)
+            # with col_fe1:
+            #     st.metric("Harga_Tiket_Log", f"{np.log1p(lp['harga_tiket']):.4f}")
+            #     st.metric("Aksesibilitas_enc", ORDINAL_MAP[lp['aksesibilitas']])
+            # with col_fe2:
+            #     st.metric("Tiket × Jam", f"{lp['tiket_x_jam']:,}")
+            #     st.metric("Nama_Spot_enc", le_spot.transform([lp['nama_spot']])[0])
+            # st.markdown('</div>', unsafe_allow_html=True)
 
             # Interpretasi
             if lp['prediksi'] >= 5000:
