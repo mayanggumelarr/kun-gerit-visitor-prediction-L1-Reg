@@ -1044,7 +1044,7 @@ elif menu == "Riwayat & Dashboard":
             data_box = [df_hist[df_hist['nama_spot']==s]['prediksi'].values
                         for s in order_spots]
 
-            bp = ax4.boxplot(data_box, patch_artist=True, labels=order_spots,
+            bp = ax4.boxplot(data_box, patch_artist=True, tick_labels=order_spots,
                              medianprops=dict(color='#E67514', linewidth=2),
                              whiskerprops=dict(color='#555'),
                              capprops=dict(color='#555'),
