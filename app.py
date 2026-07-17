@@ -285,6 +285,7 @@ hr {
 }
 .stTabs [aria-selected="true"] {
     background: var(--green) !important;
+    border-radius: 8px !important;
     color: white !important;
 }
 .stTabs [data-baseweb="tab-panel"] {
@@ -818,7 +819,7 @@ elif menu == "Riwayat & Dashboard":
     st.markdown("<br>", unsafe_allow_html=True)
 
     # ── Tabs ──
-    tab1, tab2, tab3 = st.tabs(["Data Riwayat", "Dashboard Grafik", "Kelola Data"])
+    tab1, tab2, tab3 = st.tabs(["Data Riwayat", "Dashboard Grafik", "Kelola Data"], )
 
     # ────────────────────────────
     with tab1:
