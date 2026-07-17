@@ -1148,5 +1148,5 @@ elif menu == "Riwayat & Dashboard":
         st.dataframe(
             df_hist[['id','tanggal','nama_spot','prediksi','catatan']].head(10),
             use_container_width=True,
-            column_config={"prediksi": st.column_config.NumberColumn(format="%d 👤")}
+            column_config={"prediksi": st.column_config.NumberColumn(format="%d")}
         )
